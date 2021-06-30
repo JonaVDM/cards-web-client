@@ -12,3 +12,7 @@ typescript down to plain javascript.
 ### `npm run watch`
 
 Run the typescript compiler with a watcher enabled.
+
+### `npm run start` or `npm start`
+
+Run a simple webserver that hosts this root directory.
