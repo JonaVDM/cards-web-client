@@ -1,0 +1,11 @@
+{
+  "name": "cards-web-client",
+  "private": "true",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
+}
