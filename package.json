@@ -1,0 +1,35 @@
+{
+  "name": "cards-web-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack production"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-csso": "^5.0.1",
+    "tailwindcss": "^2.2.4",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.0.0",
+    "postcss-loader": "^6.1.0",
+    "prettier": "^2.3.2",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
