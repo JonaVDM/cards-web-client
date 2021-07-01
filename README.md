@@ -1,33 +1,23 @@
 # cards-web-client
 
-Empty project.
+The frontend for the card game app
 
-## Building and running on localhost
+## Getting started
 
-First install dependencies:
+First install all dependencies:
 
 ```sh
 npm install
 ```
 
-To create a production build:
+To create a build suited for production:
 
 ```sh
-npm run build-prod
+npm run build
 ```
 
-To create a development build:
+To run the webpage directly on the browser (with tailwind JIT)
 
 ```sh
-npm run build-dev
+npm run serve
 ```
-
-## Running
-
-```sh
-node dist/bundle.js
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
